@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- js -->
+    <script src="js/scripts.js" defer></script>
+    
+    <title>Quizz Programação</title>
+</head>
+<body>
+        <h1 id="main-title">Quizz de programação!</h1>
+
+        <!-- SCORE BOARD -->
+        <div id="score-container">
+            <p id="display-score"><span>90</span>%</p>
+            <p>Você acertou <span id="correct-answers">0</span> de <span id="question-qty">10</span> perguntas</p>
+            <button id="restart">Refazer quizz</button>
+        </div>
+    
+        <!-- QUIZZ CONTAINER -->
+        <div class="quizz-container">
+            <p id="question">
+                <span id="question-number">1</span> - <span id="question-text">qual a unidade de ...</span>
+            </p>
+            <div id="answer-box">
+                <button><span class="btn-letter">a</span> <span class="question-answer">m</span></button>
+                <button><span class="btn-letter">a</span> <span class="question-answer">km</span></button>
+                <button><span class="btn-letter">a</span> <span class="question-answer">m</span></button>
+                <button><span class="btn-letter">a</span> <span class="question-answer">s</span></button>
+
+            </div>
+        </div>
+
+        <!-- TEMPLATE RESPOSTA -->
+        <button class="answer-template hide"><span class="btn-letter">a</span> <span class="question-answer">m</span></button>
+
+      
+</body>
+</html>
